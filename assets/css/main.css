@@ -1,0 +1,54 @@
+*{
+	outline: 1px solid red;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+#link-header a{
+	padding: 30px;
+	padding-top: 10px;
+}
+/*=================================
+=            SECTION#2            =
+=================================*/
+#imagen-fondo-sect1{
+	background: url(../img/taxi.jpg) no-repeat;
+	background-size: 100%;
+	height: 1000px;
+}
+/*=====  End of SECTION#2  ======*/
+/*=================================
+=            SECTION#3            =
+=================================*/
+#borde-blanco{
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+
+/*=====  End of SECTION#3  ======*/
+
+/*=================================
+=            SECTION#4            =
+=================================*/
+#fondo-sect4{
+	background: url(../img/conduce.jpg) no-repeat;
+	background-size: 100%;
+	height: 500px;
+}
+
+
+/*=====  End of SECTION#4  ======*/
+
+/*=================================
+=            SECTION#5            =
+=================================*/
+#map {
+   width: 30%;
+   height: 400px;
+   background-color: grey;
+ }
+
+
+/*=====  End of SECTION#5  ======*/
