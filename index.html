@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>LabCar</title>
+  <link rel="stylesheet" type="text/css" href="assets/fonts/">
 	<link rel="shortcut icon" type="image/x-icon" href="assets/img/labo.ico">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
@@ -35,9 +36,23 @@
 =================================-->
 	<section >
 		<div id="imagen-fondo-sect1">
-        <div class="row">
-        	<div  id="link-header" class="col m6 right-align center">
+        <div id="registrate" class="row">
+        	<div class="col m4 ">
         		
+        	</div>
+        	<div class="col m4 ">
+        		
+        	</div>
+        	<div  id="link-header" class="col m4 left-align  amber">
+            <br>
+        		<h5 class="letra-blanco">
+        			Disfruta del viaje<br>
+					Eres dueño de tu tiempo
+        		</h5><br>
+				<p class="letra-blanco">Viaja con <img src="assets/img/logo-blanco.png" width="60"><br><br>
+				</p>
+				<button  class=" waves-effect waves-light btn black">REGISTRATE</button>
+				<button class="waves-effect waves-light btn black" >Ser un conductor</button><br><br>
         	</div>
         </div>
       </div>
@@ -53,22 +68,25 @@
 	<section >
 		<div>
         <div id="borde-blanco" class="row amber">
-        	<div  id="link-header" class="col m6 right-align center">
-        		<img src="assets/img/celular.png">
+        	<div id="borde-1px">
+        		<div  id="link-header" class="col m6 right-align center">
+	        		<img src="assets/img/celular.png">
+	        	</div>
+	        	<div  id="link-header" class="col m6 right-align center">
+	        		<h5 class="left-align">
+	        			Descarga la nueva app<br>
+	        		</h5>
+	        		<p class="flow-text left-align" class="letra-blanco">La versión actualizada de LabCar<br>
+						está llena de nuevas funciones para<br>
+						llegar a donde quieras aún más fácil<br>
+						y rápido.<br>
+						La versión actualizada de LabCar<br>
+						está llena de nuevas funciones<br>
+						para llegar a donde quieras aún<br>
+						más fácil y rápido.<br></p>
+	        	</div>
         	</div>
-        	<div  id="link-header" class="col m6 right-align center">
-        		<h5 class="left-align">
-        			Descarga la nueva app<br>
-        		</h5>
-        		<p class="flow-text left-align" >La versión actualizada de LabCar<br>
-					está llena de nuevas funciones para<br>
-					llegar a donde quieras aún más fácil<br>
-					y rápido.<br>
-					La versión actualizada de LabCar<br>
-					está llena de nuevas funciones<br>
-					para llegar a donde quieras aún<br>
-					más fácil y rápido.<br></p>
-        	</div>
+        	
         </div>
       </div>
 	</section>
@@ -83,17 +101,19 @@
 	<section >
 		<div id="fondo-sect4" >
         <div  class="row">
-        	<div class="col m6">
+        	<div class="col m4">
         		
         	</div>
-
-        	<div  id="link-header" class="col m6 right-align center">
+          <div class="col m4">
+            
+          </div>
+        	<div  id="div-plomo" class="col m4 left-align ">
         		<h5>
         			Conduce cuando quieras<br>
         		</h5>
         		<p class="flow-text">LabCar es una opción flexible para alcanzar<br> 
 				tus metas financieras.<br></p>
-        		<button>Conviértete en conductor</button>
+        		<button class="waves-effect waves-light btn amber">Conviértete en conductor</button>
         	</div>
         </div>
       </div>
@@ -107,29 +127,23 @@
 =            SECTION#5            =
 ================================-->
 	<section >
-		<div id="fondo-sect5" class="yellow" >
+		<div id="fondo-sect5" class="amber" >
         <div  class="row">
         	<div class="col m6">
-        		<h4>Tarifas</h4>
+        		<h6>Tarifas</h6>
         		<p>Consulta las tarifas LabCar aquí</p>
         		<img src="assets/img/circulo.png">
         		<input type="text" id="punto-destino" placeholder="Ingrese punto de partida" name=""><br>
         		<img src="assets/img/flecha.png">
         		<input type="text" id="punto-destino" placeholder="Ingrese un destino" name=""><br>
         		<button class="waves-effect waves-light btn black">Trazar Ruta</button>
-
-        	</div>
-
-        	<div  id="link-header" class="col m6 right-align center">
-        		<h3>My Google Maps</h3>
-		        <div class="row">
-				<!-- <div class="col-md-12 col-sm-12">
-					<button id="encuentrame">Encuéntrame</button>
-				</div> -->
-		</div>
-        	</div>
+          </div>           
         </div>
-      </div>
+        <div  id="link-header" class="col m6 right-align center">
+        		<h6>My Google Maps</h6>
+		        <div class="row"></div>
+        </div>
+    </div>
 	</section>
 
 
@@ -139,11 +153,12 @@
 <!--===============================
 =            SECTION#6            =
 ================================-->
-	<footer class="footer>
+	<footer >
           
-            <div class="row">
+            <div  class="row">
               <div class="col l6 s12">
-                <img src="assets/img/logo-blanco.png">
+                <img id="footer-marg" src="assets/img/logo-blanco.png">
+                <hr>
                 <p class="grey-text text-lighten-4"></p>
               </div>
               <div class="col l8 offset-l2 s12">
@@ -172,7 +187,7 @@
 		                  <li><a class="grey-text text-lighten-3" href="#!">Seguridad</a></li>
 		                </ul>
               		</div>
-              		<div class="col l2">
+              		<div id="store-2" class="col l2">
               			<div id="store-app" class="col l3 col m3 col l push3">
 			              <img class="store" src="assets/img/app-store.png" alt="">
 			              <img class="store" src="assets/img/google-play.png" alt="">
@@ -183,9 +198,9 @@
                 
               </div>
             </div>
-         
+         <hr>
           <div class="footer-copyright">
-            <div class="center">
+            <div class="center" >
             © 2017 LabCar technologies Inc.
             </div>
           </div>

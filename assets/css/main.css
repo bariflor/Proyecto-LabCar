@@ -1,6 +1,6 @@
 *{
-	outline: 1px solid red;
-}
+/*	outline: 1px solid red;
+*/}
 body{
 	margin: 0;
 	padding: 0;
@@ -12,6 +12,7 @@ header {
 /*	position: fixed;
 */	width: 100%;
 	background: white;
+	padding-top: 20px;
 }
 #link-header a{
 	padding: 30px;
@@ -35,6 +36,9 @@ header {
   	height: 800px;
   	width: 100%;
 }
+.letra-blanco{
+	color: white;
+}
 /*=====  End of SECTION#2  ======*/
 /*=================================
 =            SECTION#3            =
@@ -44,10 +48,20 @@ header {
 	border-right: 1px solid white;
 	border-bottom: 1px solid white;
 	height: 600px;
-	
 }
-
-
+#registrate{
+	position: relative;
+	top: 200px;
+}
+#borde-1px{
+	border: 1px solid white;
+	border-left: 0;
+	width: 90%;
+	height: 450px;
+	position: absolute;
+/*	left: 30px;*/
+	padding-top: 20px;
+}
 /*=====  End of SECTION#3  ======*/
 
 /*=================================
@@ -57,6 +71,11 @@ header {
 	background: url(../img/conduce.jpg) no-repeat;
 	background-size: 100%;
 	height: 500px;
+}
+#div-plomo{
+	background-color: rgba(120, 0, 0, 0.11);
+	/*filter:alpha(opacity=10); 
+	opacity:0.5;*/
 }
 
 
@@ -71,7 +90,9 @@ header {
    background-color: grey;
  }
 
-
+#fondo-sect5{
+	height: 400px;
+}
 /*=====  End of SECTION#5  ======*/
 
 /*=================================
@@ -80,6 +101,13 @@ header {
 footer{
 	background: #807A7A;
 }
-
-
+#footer-marg{
+	padding-top: 30px;
+}
+footer ul li{
+	padding: 5px;
+}
+#store-2{
+	padding-top: 150px;
+}
 /*=====  End of SECTION#6  ======*/
