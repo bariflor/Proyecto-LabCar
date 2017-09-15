@@ -5,7 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>LabCar</title>
-  <link rel="stylesheet" type="text/css" href="assets/fonts/">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- iconos -->
+  <link rel="stylesheet" type="text/css" href="assets/fonts/style.css">
+  <!-- ICO -->
 	<link rel="shortcut icon" type="image/x-icon" href="assets/img/labo.ico">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
@@ -15,16 +19,24 @@
 =            SECTION#1-HEADER            =
 =======================================-->
 	<header>
-	  	  <div class="row ">
-        	<div class="col m6">
-        		<img src="assets/img/logo.png">
-        	</div>
-        	<div  id="link-header" class="col m6 right-align center">
-        		<a href="#">Viaja</a>
-        		<a href="#">Conduce</a>
-        		<a href="#">Iniciar Sesión</a>
-        	</div>
-          </div>
+    <nav class="navbar navbar-fixed-top white">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="glyphicon glyphicon-menu-hamburger navbar-toggle collapsed" data-toggle="collapse" data-target="#navegador">
+          </button>
+          <img href="#" class="navbar-brand" src="assets/img/logo.png">
+
+        </div>
+        <div class="nav navbar-nav navbar-right" id="navegador">
+          <ul>
+            <li><a href="">Viaja</a></li>              
+            <li><a href="">Conduce</a></li>            
+            <li><a href="">Iniciar Sesión</a></li>                          
+          </ul>
+        </div>  
+      </div>
+    </nav>
+	  	  
 	</header>
 
 
@@ -112,7 +124,7 @@
         			Conduce cuando quieras<br>
         		</h5>
         		<p class="flow-text">LabCar es una opción flexible para alcanzar<br> 
-				tus metas financieras.<br></p>
+				    tus metas financieras.<br></p>
         		<button class="waves-effect waves-light btn amber">Conviértete en conductor</button>
         	</div>
         </div>
@@ -208,9 +220,12 @@
 
 
 <!--====  End of SECTION#6  ====-->
-
-
+<!-- bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- materialize -->  
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- API -->
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1gIvmc3zm9XwMvILfWgoSlv5clluRiS4&callback=initMap"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="assets/js/app.js"></script>

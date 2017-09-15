@@ -8,17 +8,8 @@ body{
 /*=================================
 =            SECTION#1            =
 =================================*/
-header {
-/*	position: fixed;
-*/	width: 100%;
-	background: white;
-	padding-top: 20px;
-}
-#link-header a{
-	padding: 30px;
-	padding-top: 20px;
+header ul li a{	
 	color: black;
-	font-size: 20px
 }
 
 
@@ -74,8 +65,7 @@ header {
 }
 #div-plomo{
 	background-color: rgba(120, 0, 0, 0.11);
-	/*filter:alpha(opacity=10); 
-	opacity:0.5;*/
+	height: 500px;
 }
 
 
