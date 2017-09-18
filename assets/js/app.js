@@ -13,3 +13,5 @@ function initMap() {
 			map: map
 	});
 }
+
+$(".button-collapse").sideNav();
